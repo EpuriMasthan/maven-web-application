@@ -4,12 +4,12 @@
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
-	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	
 	<name>maven-web-application</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>Maven Web Project for Java Programming Language</description>
 
 	<organization>
 		<name>Mithun Technologies</name>
@@ -20,10 +20,10 @@
 		<jdk.version>1.8</jdk.version>
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
-		<log4j.version>3.8.5</log4j.version>
-		<sonar.host.url>http://13.126.14.237:9000</sonar.host.url>
-		<sonar.login>5dfd643747c40bf9a1b00b4b266a6204265e6e0f</sonar.login>
-		<sonar.password>masthan</sonar.password> 
+		<log4j.version>1.2.17</log4j.version>
+		<sonar.host.url>http://172.31.14.175:9000/</sonar.host.url>
+                <sonar.login>squ_05c534b7dd9e8528742ed2d414402704806a97c1</sonar.login>
+	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-release/</url>
+	      <url>http://172.31.37.81:9980/mithuntechnologies/repository/citibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.255.174.111:8081/repository/flipkart-snapshot/</url>
+	      <url>http://172.31.37.81:9980/mithuntechnologies/repository/citibank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
